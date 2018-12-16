@@ -1,0 +1,69 @@
+[settings]
+    arch=x86_64
+    compiler=clang
+    compiler.libcxx=libstdc++11
+    compiler.version=6.0
+    os=Linux
+
+[requires]
+    sfml/2.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    compiler=clang
+    compiler.libcxx=libstdc++11
+    compiler.version=6.0
+    os=Linux
+    os_build=Linux
+
+[full_requires]
+    bzip2/1.0.6@conan/stable:0042f7938f4b123b0c541849148a8a0500d51db0
+    flac/1.3.2@bincrafters/stable:5777c6dda86deac16134cb8e944c87ac2887a956
+    freetype/2.9.0@bincrafters/stable:ff8299f8f26be5ced45be546e060c975790f1f35
+    libalsa/1.1.5@conan/stable:dcd718216d5b2dabdcbc7cb602316ef046ffda71
+    libpng/1.6.34@bincrafters/stable:72d4fa69a7e1812c8f0d6adab780cf815e6216af
+    ogg/1.3.3@bincrafters/stable:0042f7938f4b123b0c541849148a8a0500d51db0
+    openal/1.18.2@bincrafters/stable:1d954151a234ce8e26b8f937b9f6d978a07830bf
+    sfml/2.5.0@bincrafters/stable:6754eda720eab17b8033351a0568804fc04f3400
+    stb/20180214@conan/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    vorbis/1.3.6@bincrafters/stable:b463b1540bdd1f96c0fddab3723db08fec0068a9
+    zlib/1.2.11@conan/stable:541b78810caffd4c0c7f0e4e0e6371a07b1982ba
+
+[full_options]
+    bzip2:fPIC=True
+    bzip2:shared=False
+    flac:fPIC=True
+    flac:shared=False
+    flac:use_asm=False
+    freetype:fPIC=True
+    freetype:shared=False
+    freetype:with_png=True
+    freetype:with_zlib=True
+    libalsa:disable_python=False
+    libalsa:shared=False
+    libpng:fPIC=True
+    libpng:shared=False
+    ogg:fPIC=True
+    ogg:shared=False
+    openal:fPIC=True
+    openal:shared=False
+    sfml:audio=True
+    sfml:fPIC=True
+    sfml:graphics=True
+    sfml:network=True
+    sfml:shared=True
+    sfml:window=True
+    vorbis:fPIC=True
+    vorbis:shared=False
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+    CC=/usr/bin/clang
+    CXX=/usr/bin/clang++
